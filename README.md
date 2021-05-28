@@ -5,7 +5,7 @@ Transmit [ggwave](https://github.com/ggerganov/ggwave) encoded messages with an 
 ## Building
 Build and install [ggwave](https://github.com/ggerganov/ggwave) first. Then:
 ```
-$ export LDFLAGS=<GGWAVE_LIBDIR>
+$ export LDFLAGS=-L<GGWAVE_LIBDIR>
 $ make
 ```
 ## Usage

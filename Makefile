@@ -1,4 +1,4 @@
-CXXFLAGS = -O2 -Wall -Iinclude
+CXXFLAGS = -O2 -Wall -Iinclude -std=c++11
 LDLIBS = -lggwave
 
 all: ggwave-fm
