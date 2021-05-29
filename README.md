@@ -2,6 +2,10 @@
 
 Transmit [ggwave](https://github.com/ggerganov/ggwave) encoded messages with an SDR and receive them with an FM radio.
 
+Here is a demo with HackRF transmitting messages on 145.650MHz. Messages are received with Baofeng FM radio and decoded with the Waver mobile app:
+
+[![Demo](https://img.youtube.com/vi/pO4SuNroBA0/0.jpg)](https://www.youtube.com/watch?v=pO4SuNroBA0)
+
 ## Building
 Build and install [ggwave](https://github.com/ggerganov/ggwave) first. Then:
 ```
