@@ -13,7 +13,7 @@ $ export LDFLAGS=-L<GGWAVE_LIBDIR>
 $ make
 ```
 ## Usage
-The program takes a text message (specified with `-m`) and outputs a complex sampled IQ file which is suitable for transmission with an SDR. The output sample format is specified with `-f` and can be either 32bit float or 8bit signed integer.
+The program takes a text message (specified with `-m`) and outputs a complex sampled IQ file which is suitable for transmission with an SDR. The output sample format is specified with `-f` and can be either 32bit float or 8bit signed integer. The output sample rate is 2400000.
 
 For example to transmit "Hello, world" on 145.650MHz with HackRF:
 ```
