@@ -20,7 +20,7 @@ void usage()
 {
     fprintf(stderr, "Usage: ggwave-fm -m <message> [-p <protocol>] [-o <output>] [-f <format>]\n"
             "   -m message      - message to be transmitted\n"
-            "   -p protocol     - ggwave protocol: normal(default), fast, fastest"
+            "   -p protocol     - ggwave protocol: normal(default), fast, fastest\n"
             "   -o output       - output file (default stdout)\n"
             "   -f format       - output sample format: f32(default), s8(HackRF)\n");
     exit(1);
