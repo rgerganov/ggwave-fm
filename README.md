@@ -22,7 +22,12 @@ $ hackrf_transfer -s 2400000 -f 145650000 -t hello.s8 -a 1 -x 20
 ```
 You can also pipe the output of `ggwave-fm` to `hackrf_transfer`:
 ```
-ggwave-fm -m 'Hello, world' -f s8 | hackrf_transfer -s 2400000 -f 145650000 -t - -a 1 -x 20
+$ ggwave-fm -m 'Hello, world' -f s8 | hackrf_transfer -s 2400000 -f 145650000 -t - -a 1 -x 20
+```
+Transmitting with USRP B200:
+```
+$ ggwave-fm -m 'Hello, world' -o hello.cfile -f f32
+$ tx_samples_from_file --file hello.cfile --rate 2400000 --freq 145650000 --type float --gain 40
 ```
 
 The `-p` option specifies the ggwave protocol: normal (default), fast, fastest
